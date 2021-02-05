@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.photos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.photo {
+  max-width: 300px;
+  height: 300px;
+  padding: 10px;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* dsds */
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-input {
+  width: 250px;
+  padding: 20px;
+  background: #fff;
+  border: 2px dashed #555;
+}
+.form-input input {
+  display: none;
+}
+.form-input label {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: Uppercase;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form-input img {
+  width: 100%;
+
+  display: block;
+  margin-top: 10px;
+}
+.image-btn {
+  outline: none;
+  border: none;
+  background-color: rgb(89, 153, 250);
+  padding: 10px 30px;
+}
+.input-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.image-preview {
+  width: 200px;
+  height: 200px;
+}
+
+.image-preview img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-form {
+  margin-right: 20px;
+}
