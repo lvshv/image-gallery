@@ -36,6 +36,7 @@ export const RegisterPage = observer(() => {
       history.push('/photos');
       setLoading(false);
     } catch (error) {
+      setLoading(false);
       setError(error.response.data.message);
       setTimeout(() => {
         setError(null);
