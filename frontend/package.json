@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "proxy": "https://image-gallery-mern.herokuapp.com",
   "private": true,
+  "engines": {
+    "node": "14.15.1"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
